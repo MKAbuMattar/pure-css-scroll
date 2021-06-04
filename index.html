@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pure CSS Scroll</title>
+  <link rel="stylesheet" href="./assets//css/normalize.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header id="home">
+      <h1 class="sectionTitle">Header</h1>
+      <p>use your arrow button for scrolling in this website</p>
+    </header>
+    <nav class="navbar sticky">
+      <h1 class="brand">
+        <a href="#home">Portfolio</a>
+      </h1>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="about">
+        <h1 class="sectionTitle">About me</h1>
+      </section>
+      <section id="work">
+        <h1 class="sectionTitle">Work</h1>
+        <div class="cards">
+          <div class="card">
+            <div class="cardImg" style="background-image: url(https://via.placeholder.com/500x500?text=Project+1);">
+            </div>
+            <div class="cardBody">
+              <h1 class="cardTitle">Project 1</h1>
+              <p class="cardParagraph">Paragraph 1</p>
+              <span class="programmingLanguage">HTML</span>
+              <span class="programmingLanguage">CSS</span>
+              <span class="programmingLanguage">JS</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="cardImg" style="background-image: url(https://via.placeholder.com/500x500?text=Project+2);">
+            </div>
+            <div class="cardBody">
+              <h1 class="cardTitle">Project 2</h1>
+              <p class="cardParagraph">Paragraph 2</p>
+              <span class="programmingLanguage">JS (React)</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="cardImg" style="background-image: url(https://via.placeholder.com/500x500?text=Project+3);">
+            </div>
+            <div class="cardBody">
+              <h1 class="cardTitle">Project 3</h1>
+              <p class="cardParagraph">Paragraph 3</p>
+              <span class="programmingLanguage">C#</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h1 class="sectionTitle">Contact me</h1>
+        <div class="footer">
+          <p>
+            All Copyrights Reserved © 2021
+            <script>
+              new Date().getFullYear() > 2021 && document.write(" - " + new Date().getFullYear());
+            </script>,
+            Made With <mark class="heart">❤</mark> &amp; a lot ☕ By
+            <a href="https://mkabumattar.github.io/">Mohammad Khaled Abu Mattar</a>
+          </p>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+
+</html>
